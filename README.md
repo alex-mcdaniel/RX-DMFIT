@@ -1,5 +1,5 @@
 # RX-DMFIT
-RX-DMFIT is tool for calculating the predicted multi-wavelength emission profile and spectra from dark matter annihilation. Particulary, RX-DMFIT calculates the emission due to synchrotron, inverse Compton scattering, and pion decay to gamma-rays, as well as providing dark matter constraints for user provided radio or X-ray data. A wide range of customizable astrophysical and particle parameters are included and important astrophysical effects are incoroprated into the analysis, including diffusion, energy loss processes, and magnetic field mdeling. 
+RX-DMFIT (Radio and X-ray - DMFIT) is a tool for calculating the predicted multi-wavelength emission profile and spectra from dark matter annihilation. Particulary, RX-DMFIT calculates the emission due to synchrotron, inverse Compton scattering, and pion decay to gamma-rays, as well as providing dark matter constraints for user provided radio or X-ray data. A wide range of customizable astrophysical and particle parameters are included and important astrophysical effects are incoroprated into the analysis, including diffusion, energy loss processes, and magnetic field mdeling. 
 
 Two example files, example1.cpp and example2.cpp, are included to demonstrate the basic functionality of the tool. Once RX-DMFIT is installed, these examples can be run with the commands:
 ```
