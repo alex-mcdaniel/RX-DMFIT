@@ -4,8 +4,8 @@ RX-DMFIT (Radio and X-ray - DMFIT) is a tool for calculating the predicted multi
 Two example files, example1.cpp and example2.cpp, are included to demonstrate the basic functionality of the tool. Once RX-DMFIT is installed, these examples can be run with the commands:
 ```
 
-make example1(example2)
-./example1(example2)
+make example1
+./example1
 
 ```
 Astrophysical parameters are declared and initialized in Target.h and Target.cpp, repsectively. Particle parameters are declared and initialized in Particle.h. Constant values are declared and initialzed in Constants.h and Constants.cpp, respectively.
