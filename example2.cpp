@@ -60,8 +60,8 @@ main(){
 	// for our partcile model we will take Mx = 40 GeV, 
 	// and assume b-bbar final state
 	d.p.BR_bb = 1;
-	runSED(40);
+
 	runjsynch(40, 1.4e9);
 	runjIC_CMB(40, 1e18);
-
+	runSED(40);
 }
