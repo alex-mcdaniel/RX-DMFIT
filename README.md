@@ -16,6 +16,8 @@ For more info see arXiv:1705.09384. Full documentation to come.
 Electron/positron and gamma ray injection spectra are determined using DarkSUSY.
 Download and install DarkSUSY http://www.darksusy.org/ (Requires a compatible Fortran compiler, e.g. gfortran) Note that you will need to provide the directory where DarkSUSY is stored in the makefile as “prefix”.
 
+If you are using DarkSUSY-6.x.x see https://github.com/alex-mcdaniel/RX-DMFIT/issues/1
+
 # GSL Numerical Integration
 Download GNU scientific library (GSL) https://www.gnu.org/software/gsl/. RX-DMFIT uses the GSL numerical library for carrying out numerical integration. May require installing libgsl0-dev for gsl header files. (Ubuntu Command):
 ```
