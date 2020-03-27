@@ -26,6 +26,10 @@ sudo apt-get install libgsl0-dev
 
 ```
 # Makefile
+In the makefile, be sure that the 'prefix' variable is set to the location of DarkSUSY.
+```
+prefix = home/alex/research/darksusy-5.1.2
+```
 The makefile rule is of the form:
 ```
 
