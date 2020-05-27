@@ -10,7 +10,7 @@ make example1
 ```
 Astrophysical parameters are declared and initialized in Target.h and Target.cpp, repsectively. Particle parameters are declared and initialized in Particle.h. Constant values are declared and initialzed in Constants.h and Constants.cpp, respectively.
 
-For more info see arXiv:1705.09384. Full documentation to come.
+For more info see arXiv:1705.09384. or Doc.pdf for more detailed description of the code..
 
 # DarkSUSY Interface
 Electron/positron and gamma ray injection spectra are determined using DarkSUSY.
