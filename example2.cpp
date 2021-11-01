@@ -9,7 +9,7 @@ Running this code should take ~5-6 min
 -------------------------------------------------------------------*/
 #include "Run.h"
 
-main(){
+int main(){
 
 	//Create the Target instance
 	Target d;
@@ -64,4 +64,6 @@ main(){
 	runjsynch(40, 1.4e9);
 	runjIC_CMB(40, 1e18);
 	runSED(40);
+	
+	return 0;
 }
