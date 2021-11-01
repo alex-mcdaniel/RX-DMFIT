@@ -8,7 +8,7 @@ Running this code should take ~4-5 min
 -------------------------------------------------------------------*/
 #include "Run.h"
 
-main(){
+int main(){
 
 	//Create the Target instance
 	Target c;
@@ -96,5 +96,6 @@ main(){
 	runjIC_CMB(40, 1e18);
 	runSED(40);
 	runExCurveSynch(1.4e9, 0.64);
-
+	
+	return 0;
 }
