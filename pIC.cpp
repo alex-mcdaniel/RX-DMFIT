@@ -64,8 +64,8 @@ Starlight spatial model
 
 double Target::SL_profile(double r){
 
-	r_b_cm = r_b*kpc2cm;
-	r_d_cm = r_d*kpc2cm;
+	double r_b_cm = r_b*kpc2cm;
+	double r_d_cm = r_d*kpc2cm;
 
 	double bulge = exp( -b_n * ( pow(r/r_b_cm , 1.0/n_s) ) ); 
 
